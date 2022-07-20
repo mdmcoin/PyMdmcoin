@@ -40,7 +40,7 @@ from .ParallelPyWaves import *
 from .WXFeeCalculator import *
 
 OFFLINE = False
-NODE = 'https://nodes.wavesnodes.com'
+NODE = 'http://node001.mdmcoin.net'
 
 ADDRESS_VERSION = 1
 ADDRESS_CHECKSUM_LENGTH = 4
@@ -48,15 +48,15 @@ ADDRESS_HASH_LENGTH = 20
 ADDRESS_LENGTH = 1 + 1 + ADDRESS_CHECKSUM_LENGTH + ADDRESS_HASH_LENGTH
 
 CHAIN = 'mainnet'
-CHAIN_ID = 'W'
+CHAIN_ID = 'M'
 #MATCHER = 'https://nodes.wavesnodes.com'
 #MATCHER = 'http://matcher.wavesnodes.com'
-MATCHER = 'https://matcher.waves.exchange'
+#MATCHER = 'https://matcher.waves.exchange'
 #MATCHER_PUBLICKEY = ''
-MATCHER_PUBLICKEY = '9cpfKN9suPNvfeUNphzxXMjcnn974eme8ZhWUjaktzU5'
+#MATCHER_PUBLICKEY = '9cpfKN9suPNvfeUNphzxXMjcnn974eme8ZhWUjaktzU5'
 
 #DATAFEED = 'http://marketdata.wavesplatform.com'
-DATAFEED = 'https://api.wavesplatform.com'
+DATAFEED = 'http://api.mdmcoin.net'
 
 logging.getLogger("requests").setLevel(logging.WARNING)
 console = logging.StreamHandler()
