@@ -1,9 +1,9 @@
-# PyWaves
+# PyMDMCoin
 PyWaves is an object-oriented Python interface to the Waves blockchain platform.
 
 ## Getting Started
 
-You can install PyWaves using:
+You can install PyMDMCoin using:
 
     pip install pywaves
 
