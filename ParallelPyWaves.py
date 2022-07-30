@@ -33,7 +33,7 @@ class ParallelPyWaves(object):
         self.DEFAULT_ASSET_SCRIPT_FEE = 100000000
         self.DEFAULT_SET_SCRIPT_FEE = 1000000
         self.DEFAULT_INVOKE_SCRIPT_FEE = 500000
-        self.DEFAULT_CURRENCY = 'WAVES'
+        self.DEFAULT_CURRENCY = 'MDM'
         self.VALID_TIMEFRAMES = (5, 15, 30, 60, 240, 1440)
         self.MAX_WDF_REQUEST = 100
 
