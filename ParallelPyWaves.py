@@ -40,7 +40,7 @@ class ParallelPyWaves(object):
         self.THROW_EXCEPTION_ON_ERROR = False
 
         self.OFFLINE = False
-        self.NODE = 'https://nodes.wavesnodes.com'
+        self.NODE = 'https://nodes.mdmcoin.net'
 
         self.ADDRESS_VERSION = 1
         self.ADDRESS_CHECKSUM_LENGTH = 4
@@ -48,11 +48,11 @@ class ParallelPyWaves(object):
         self.ADDRESS_LENGTH = 1 + 1 + self.ADDRESS_CHECKSUM_LENGTH + self.ADDRESS_HASH_LENGTH
 
         self.CHAIN = 'mainnet'
-        self.CHAIN_ID = 'W'
-        self.MATCHER = 'https://matcher.waves.exchange'
+        self.CHAIN_ID = 'M'
+        self.MATCHER = 'https://matcher.mdmcoin.net'
         self.MATCHER_PUBLICKEY = ''
 
-        self.DATAFEED = 'http://marketdata.wavesplatform.com'
+        self.DATAFEED = 'http://marketdata.mdmcoin.net'
 
         logging.getLogger("requests").setLevel(logging.WARNING)
         console = logging.StreamHandler()
@@ -62,8 +62,8 @@ class ParallelPyWaves(object):
         logging.getLogger('').addHandler(console)
 
         self.WAVES = Asset('')
-        self.BTC = Asset('8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS')
-        self.USD = Asset('Ft8X1v1LTa1ABafufpaCWyVj8KkaxUWE6xBhW6sNFJck')
+        self.BTC = Asset('')
+        self.USD = Asset('')
 
     def throw_error(self, msg):
         if self.THROW_EXCEPTION_ON_ERROR:
@@ -89,7 +89,7 @@ class ParallelPyWaves(object):
         else:
             if chain.lower()=='mainnet' or chain.lower()=='w':
                 self.CHAIN = 'mainnet'
-                self.CHAIN_ID = 'W'
+                self.CHAIN_ID = 'M'
             elif chain.lower()=='hacknet' or chain.lower()=='u':
                 self.CHAIN = 'hacknet'
                 self.CHAIN_ID = 'U'
