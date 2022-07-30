@@ -1,5 +1,5 @@
 # Copyright (C) 2017 PyWaves Developers
-#
+# Copyright (C) 2022 PyMdcoin Developers
 # This file is part of PyWaves.
 #
 # It is subject to the license terms in the LICENSE file found in the top-level
