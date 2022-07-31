@@ -40,7 +40,7 @@ from .ParallelPyWaves import *
 from .WXFeeCalculator import *
 
 OFFLINE = False
-NODE = 'http://node001.mdmcoin.net'
+NODE = 'https://nodes.mdmcoin.com'
 
 ADDRESS_VERSION = 1
 ADDRESS_CHECKSUM_LENGTH = 4
