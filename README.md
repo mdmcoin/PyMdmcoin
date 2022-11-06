@@ -189,8 +189,8 @@ config = {
     'privateKey': 'xxx'
 }
 
-pw.setNode('https://nodes-testnet.wavesnodes.com/', chain='testnet')
-pw.setMatcher('http://matcher-testnet.waves.exchange')
+pw.setNode('https://nodes.mdmcoin.com/', chain='mainnet')
+pw.setMatcher('https://matcher.mdmcoin.com/')
 
 wxFeeCalculator = pw.WXFeeCalculator()
 address = pw.Address(privateKey=config['privateKey'])
