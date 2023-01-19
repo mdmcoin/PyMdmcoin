@@ -320,7 +320,7 @@ myToken = myAddress.issueAsset( name = "MyToken",
 ```python
 import pywaves as pw
 
-pw.setNode(node = 'http://127.0.0.1:6869', chain = 'testnet')
+pw.setNode(node = 'http://127.0.0.1:7879', chain = 'mainnet')
 
 myAddress = pw.Address(privateKey='CtMQWJZqfc7PRzSWiMKaGmWFm4q2VN5fMcYyKDBPDx6S')
 myAddress.createAlias("MYALIAS1")
@@ -477,7 +477,7 @@ Storing data in an oracle:
 ```python
 import pywaves as pw
 
-pw.setNode('https://testnode1.wavesnodes.com', 'T')
+pw.setNode('https://testnode1.mdmcoin.com', 'T')
 
 oracle = pw.Oracle(seed='<your seed here>')
 print(oracle.storeData('oracle_test', 'string', 'test entry from oracle class'))
@@ -488,7 +488,7 @@ print(oracle.storeData('oracle_test', 'string', 'test entry from oracle class'))
 import pywaves as pw
 
 config = pw.ParallelPyWaves()
-config.setNode('https://testnode1.wavesnodes.com', 'testnet')
+config.setNode('https://testnode1.mdmcoin.com', 'testnet')
 
 tAddress = pw.Address(seed = "test test test", pywaves = config)
 
@@ -503,7 +503,7 @@ print(tAddress.address)
 import pywaves as pw
 
 # set Matcher node to use
-pw.setMatcher(node = 'http://127.0.0.1:6886')
+pw.setMatcher(node = 'http://127.0.0.1:7876')
 
 # post a buy order
 BTC = pw.Asset('4ZzED8WJXsvuo2MEm2BmZ87Azw8Sx7TVC6ufSUA5LyTV')
@@ -560,7 +560,7 @@ for t in ohlcv:
 import pywaves as pw
 
 # connect to a local testnet node
-pw.setNode(node = 'http://127.0.0.1:6869', chain = 'testnet')
+pw.setNode(node = 'http://127.0.0.1:7879', chain = 'mainnet')
 
 myAddress = pw.Address(privateKey = 'CsBpQpNE3Z1THNMS9vJPaXqYwN9Hgmhd9AsAPrM3tiuJ')
 minerAddress = pw.Address('3NBThmVJmcexzJ9itP9KiiC2K6qnGQwpqMq')
@@ -649,7 +649,7 @@ asset1 = AFzL992FQbhcgSZGKDKAiRWcjtthM55yVCE99hwbHf88
 asset2 = 49Aha2RR2eunR3KZFwedfdi7K9v5MLQbLYcmVdp2QkZT
 sender.address = 3P6WfA4qYtkgwVAsWiiB6yaea2X8zyXncJh
 sender.publicKey = EYNuSmW4Adtcc6AMCZyxkiHMPmF2BZ2XxvjpBip3UFZL
-matcher = http://127.0.0.1:6886
+matcher = http://127.0.0.1:7876
 ```
 
 ### Offline signing and custom timestamps
@@ -716,10 +716,10 @@ PyWaves supports both mainnet and testnet chains. By default, PyWaves connects t
 import pywaves as pw
 
 # connects to a local testnet node
-pw.setNode(node = 'http://127.0.0.1:6869', chain = 'testnet')
+pw.setNode(node = 'http://127.0.0.1:7879', chain = 'testnet')
 
 # connects to a local mainnet node
-pw.setNode(node = 'http://127.0.0.1:6869', chain = 'mainnet')
+pw.setNode(node = 'http://127.0.0.1:7879', chain = 'mainnet')
 
 ```
 
