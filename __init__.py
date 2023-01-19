@@ -49,14 +49,14 @@ ADDRESS_LENGTH = 1 + 1 + ADDRESS_CHECKSUM_LENGTH + ADDRESS_HASH_LENGTH
 
 CHAIN = 'mainnet'
 CHAIN_ID = 'M'
-#MATCHER = 'https://nodes.wavesnodes.com'
+MATCHER = 'https://nodes.mdmcoin.com'
 #MATCHER = 'http://matcher.wavesnodes.com'
 #MATCHER = 'https://matcher.waves.exchange'
 #MATCHER_PUBLICKEY = ''
 #MATCHER_PUBLICKEY = '9cpfKN9suPNvfeUNphzxXMjcnn974eme8ZhWUjaktzU5'
 
-#DATAFEED = 'http://marketdata.wavesplatform.com'
-DATAFEED = 'http://api.mdmcoin.net'
+#DATAFEED = 'https://api.wavesplatform.com/v0/'
+DATAFEED = 'http://apidata.mdmcoin.net'
 
 logging.getLogger("requests").setLevel(logging.WARNING)
 console = logging.StreamHandler()
