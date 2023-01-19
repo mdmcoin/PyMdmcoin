@@ -56,7 +56,7 @@ MATCHER = 'https://nodes.mdmcoin.com'
 #MATCHER_PUBLICKEY = '9cpfKN9suPNvfeUNphzxXMjcnn974eme8ZhWUjaktzU5'
 
 #DATAFEED = 'https://api.wavesplatform.com/v0/'
-DATAFEED = 'http://apidata.mdmcoin.net'
+DATAFEED = 'https://apidata.mdmcoin.net'
 
 logging.getLogger("requests").setLevel(logging.WARNING)
 console = logging.StreamHandler()
