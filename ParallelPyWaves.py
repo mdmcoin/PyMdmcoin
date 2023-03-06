@@ -40,7 +40,7 @@ class ParallelPyWaves(object):
         self.THROW_EXCEPTION_ON_ERROR = False
 
         self.OFFLINE = False
-        self.NODE = 'https://nodes.mdmcoin.net'
+        self.NODE = 'https://nodes.mdmcoin.com'
 
         self.ADDRESS_VERSION = 1
         self.ADDRESS_CHECKSUM_LENGTH = 4
@@ -49,10 +49,10 @@ class ParallelPyWaves(object):
 
         self.CHAIN = 'mainnet'
         self.CHAIN_ID = 'M'
-        self.MATCHER = 'https://matcher.mdmcoin.net'
+        self.MATCHER = 'https://nodes.mdmcoin.com/matcher'
         self.MATCHER_PUBLICKEY = ''
 
-        self.DATAFEED = 'http://marketdata.mdmcoin.net'
+        self.DATAFEED = 'https://apidata.mdmcoin.com'
 
         logging.getLogger("requests").setLevel(logging.WARNING)
         console = logging.StreamHandler()
