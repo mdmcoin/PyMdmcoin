@@ -2,6 +2,7 @@
 PyWaves is an object-oriented Python interface to the MDMCoin blockchain platform, based on WAVES Protocol.
 
 ## Getting Started
+pip install -r requirements.txt
 
 ## Documentation
 
