@@ -38,7 +38,7 @@ __pywaves.Address(address, publicKey, privateKey, seed)__ _Creates a new Address
 
 #### methods:
 
-`balance(assetId='', confirmations=0)` returns balance of Waves or other assets
+`balance(assetId='', confirmations=0)` returns balance of MDMCoins or other assets
 
 `assets()` returns a list of assets owned by the address
 
