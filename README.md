@@ -188,7 +188,7 @@ config = {
 }
 
 pw.setNode('https://nodes.mdmcoin.com/', chain='mainnet')
-pw.setMatcher('https://https://nodes.mdmcoin.com/matcher')
+pw.setMatcher('https://nodes.mdmcoin.com/matcher')
 
 wxFeeCalculator = pw.WXFeeCalculator()
 address = pw.Address(privateKey=config['privateKey'])
