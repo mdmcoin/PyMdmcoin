@@ -182,7 +182,7 @@ All values here for price and amounts of tokens are always in the smallest unit 
 import pywaves as pw
 
 config = {
-    'amountAsset': 'WAVES',
+    'amountAsset': 'MDMCOIN',
     'priceAsset': '25FEqEjRkqK6yCkiT7Lz6SAYz7gUFCtxfCChnrVFD5AT',
     'privateKey': 'xxx'
 }
